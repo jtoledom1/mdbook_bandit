@@ -1,7 +1,5 @@
 # Summary
 
-<details>
-<summary>Niveles<summary>
 - [Introducción](./Introducción.md)
 - [Nivel 0](./Nivel_0.md)
 - [Nivel 01](./Nivel_01.md)
@@ -37,4 +35,3 @@
 - [Nivel 31](./Nivel_31.md)
 - [Nivel 32](./Nivel_32.md)
 - [Nivel 33](./Nivel_33.md)
-<details>
