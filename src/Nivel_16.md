@@ -24,8 +24,6 @@ openssl s_client -quiet -connect localhost:31790
 
 **Copiar la llave privada.**
 
-
-
 Nos dirijiremos a el directorio /tmp.
 
 Para poder trabajar y crear archivos necesitamos un directorio temporal.
