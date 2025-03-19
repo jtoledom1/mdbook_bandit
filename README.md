@@ -11,8 +11,8 @@ El curso está diseñado para principiantes y personas interesadas en aprender c
 ## ¿Cómo acceder al curso?
 
 El curso está alojado en **GitHub Pages** y puedes acceder a él directamente desde el siguiente enlace:
+[Acceder al Curso](https://jtoledom1.github.io/mdbook_bandit/Chapter%201%20-%20Niveles%20Bandit)
 
-[Acceder al Curso]([Chapter 1 - Niveles Bandit](https://jtoledom1.github.io/mdbook_bandit/))
 
 ## Estructura del Curso
 
