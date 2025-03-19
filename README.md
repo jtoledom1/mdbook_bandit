@@ -43,7 +43,7 @@ Para seguir este curso, necesitarás:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [MIT](LICENSE). Siéntete libre de usar, modificar y distribuir el contenido siempre que se respete la licencia.
+Este proyecto está bajo la licencia [Creative Commons Zero v1.0 Universal](LICENSE). Siéntete libre de usar, modificar y distribuir el contenido siempre que se respete la licencia.
 
 ## Contacto
 
