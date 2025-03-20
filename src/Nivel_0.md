@@ -21,3 +21,8 @@ cat readme
 ```
 
 Por último copia la clave para usarla para pasar al siguiente nivel.
+
+
+```admonish example
+My example is the best!
+```
