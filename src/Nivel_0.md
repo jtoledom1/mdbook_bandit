@@ -1,4 +1,9 @@
-# Niveles 0-5
+<h1 align="center"> Niveles 0-5</h1>
+<br>
+ 
+```admonish info title='Recomendaciones'
+Intenta _no_ copiar los comandos, **escríbelos** para buscar la mayor *retención* posible
+```
 
 ## Nivel 0
 
@@ -114,3 +119,9 @@ cat ./inhere/maybehere07/.file2
 ```
 
 Ahora guarda la contraseña para pasar al siguiente nivel
+
+<hr><br>
+
+```admonish tip title='_Felicidades por pasar_ tus <i>primeros 5 niveles!</i>'
+Si estás leyendo lograste tu primer meta <span style="color: hotpink">vamos por más!</span>.
+```

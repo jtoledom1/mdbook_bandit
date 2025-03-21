@@ -1,4 +1,5 @@
-# Introducción
+<h1 align="center"><Mark>Introducción</Mark></h1>
+
 
 ¡Bienvenido al tutorial de resolución de **Over The Wire - Bandit**! Este libro está diseñado para guiarte paso a paso a través de cada nivel del juego Bandit, ayudándote a aprender conceptos esenciales de seguridad informática, Linux y resolución de problemas de manera práctica y divertida.
 
@@ -46,7 +47,8 @@ Este libro está organizado por niveles, siguiendo la estructura del juego Bandi
 
 Puedes seguir el libro en orden o saltar directamente a los niveles que te interesen. ¡Tú decides cómo aprender!
 
-### Directorios útiles
+## Adicionales
+~~~admonish title='Directorios útiles'
 
 ```bash
 /etc/bandit_pass/
@@ -59,6 +61,7 @@ Puedes seguir el libro en orden o saltar directamente a los niveles que te inter
 ```bash
 /dev/null
 ```
+~~~
 
 ## ¡Comencemos!
 
@@ -66,4 +69,7 @@ Ahora que sabes qué esperar, es hora de sumergirte en el mundo de Bandit. Prep�
 
 ---
 
+```admonish success title=""
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme o abrir un **issue** en el repositorio. ¡Buena suerte y que comience el desafío! 🚀
+```
+
