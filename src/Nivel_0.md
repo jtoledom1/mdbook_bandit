@@ -1,4 +1,6 @@
-# Nivel 0
+# Niveles 0-5
+
+## Nivel 0
 
 ### Acceso
 
@@ -20,30 +22,95 @@ A continuación abre el archivo readme
 cat readme
 ```
 
-Por último copia la clave para usarla para pasar al siguiente nivel.
-
-```admonish info
-My example is the best!
-```
-```admonish example
-My example is the best!
-```
 ```admonish
-A plain note.
+Por último copia la clave para usarla para pasar al siguiente nivel.
 ```
-```admonish warning title="Data loss"
-The following steps can lead to irrecoverable data corruption.
+
+<hr>
+<br>
+
+## Nivel 01
+
+Para este nivel tienes que abrir el archivo '-'
+
 ```
-```admonish success title=""
-This will take a while, go and grab a drink of water.
+cat <-
 ```
-```admonish tip title='_Referencing_ and <i>dereferencing</i>'
-The opposite of *referencing* by using `&` is *dereferencing*, which is
-accomplished with the <span style="color: hotpink">dereference operator</span>, `*`.
+
+Copia la contraseña para acceder al siguiente nivel
+
+<hr>
+<br>
+ 
+## Nivel 02
+ 
+A continuación abre el archivo '**spaces in this filename**'
+
+```bash
+cat spaces \in \this \filename
 ```
-~~~admonish bug
-This syntax won't work in Python 3:
-```python
-print "Hello, world!"
+
+Ahora copia la contraseña para acceder al siguiente nivel.
+
+<hr>
+<br>
+ 
+## Nivel 03
+
+A continuación cambia de ubicación a **inhere** 
+
+```bash
+cd inhere
 ```
-~~~
+
+Abre el archivo oculto 
+
+```bash
+ cat ...Hiding-From-You
+```
+
+Copia la contraseña para pasar al siguiente nivel.
+
+<hr>
+<br>
+ 
+## Nivel 04
+
+A continuación cambia de ubicación a **inhere**
+
+```bash
+cd inhere
+```
+
+Vamos a verificar los tipos de archivos que hay en el directorio actual
+
+```bash
+file ./*
+```
+
+Ahora tenemos que abrir el archivo que contiene formato tipo texto ASCII
+
+```bash
+cat <-file07
+```
+
+Ahora guarda la contraseña para pasar al siguiente nivel.
+
+<hr>
+<br>
+ 
+## Nivel 05
+
+Busca el archivo que tenga las características descritas en Bandit
+
+```bash
+find ./* -size 1033c -not -executable
+```
+
+Abre el archivo que coincida
+
+```bash
+cat ./inhere/maybehere07/.file2
+```
+
+Ahora guarda la contraseña para pasar al siguiente nivel
