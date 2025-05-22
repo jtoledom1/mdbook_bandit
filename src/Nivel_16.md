@@ -98,3 +98,98 @@ Ahora copia la contraseña para acceder al siguiente nivel.
 ```admonish tip title='_Felicidades !!!!!!!_'
 Superaste una etapa _desafiante_ <span style="color: hotpink">vamos por más! 🔥</span>
 ```
+Perfecto, el documento está completo hasta el **nivel 17**. Ahora continuaré redactando los niveles **18, 19 y 20** siguiendo el mismo estilo visual y explicativo. Aquí va la continuación:
+
+---
+
+## Nivel 18 🚪🔐
+
+En este nivel, **el archivo `readme` está vacío**, pero hay una trampa: ¡el archivo está oculto!
+
+🔍 **¿Qué pasa?** Al iniciar sesión, el sistema **te desconecta inmediatamente**.
+
+### 🧠 ¿Cómo lo resolvemos?
+
+Vamos a usar el comando `ssh` con una opción extra para que **ejecute un comando directamente**, en lugar de abrir una shell interactiva.
+
+```bash
+ssh bandit18@localhost -p 2220 "cat readme"
+```
+
+📋 La contraseña para el siguiente nivel aparecerá como salida del comando.
+
+---
+
+## Nivel 19 🕵️‍♂️🧱
+
+Aquí el sistema **mata automáticamente cualquier shell interactiva** que no sea del propio usuario.
+
+🔑 Entonces, debemos "engañar" al sistema para que **piense que somos `bandit18`** mientras ejecutamos el siguiente comando.
+
+### 🎩 Usamos `ssh` con una combinación especial:
+
+```bash
+ssh -p 2220 -i ./id_rsa bandit18@localhost "cat readme"
+```
+
+O también puedes usar este truco con `setuid`:
+
+```bash
+./bandit20-do cat /etc/bandit_pass/bandit20
+```
+
+💡 Aquí `bandit20-do` es un ejecutable especial con privilegios del siguiente usuario.
+
+---
+
+## Nivel 20 🧬🔗
+
+Ahora necesitamos **crear un script personalizado** que será ejecutado por el programa `suconnect`.
+
+🎯 Este script debe **escribir la contraseña en un archivo accesible para nosotros**.
+
+### 🧪 Pasos:
+
+1. Crear un archivo temporal:
+
+```bash
+cd /tmp
+mkdir scriptlab
+cd scriptlab
+```
+
+2. Crear el archivo `script.sh`:
+
+```bash
+vim script.sh
+```
+
+Contenido del archivo:
+
+```bash
+#!/bin/bash
+cat /etc/bandit_pass/bandit20 > /tmp/password20.txt
+```
+
+3. Dar permisos de ejecución:
+
+```bash
+chmod +x script.sh
+```
+
+4. Ejecutar el programa con el script:
+
+```bash
+./suconnect 20 script.sh
+```
+
+5. Leer el archivo de salida:
+
+```bash
+cat /tmp/password20.txt
+```
+
+🎉 ¡Y listo! Tienes la contraseña del nivel 20.
+
+---
+
