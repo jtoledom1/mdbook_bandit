@@ -98,7 +98,6 @@ Ahora copia la contraseña para acceder al siguiente nivel.
 ```admonish tip title='_Felicidades !!!!!!!_'
 Superaste una etapa _desafiante_ <span style="color: hotpink">vamos por más! 🔥</span>
 ```
-Perfecto, el documento está completo hasta el **nivel 17**. Ahora continuaré redactando los niveles **18, 19 y 20** siguiendo el mismo estilo visual y explicativo. Aquí va la continuación:
 
 ---
 
