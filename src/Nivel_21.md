@@ -134,5 +134,3 @@ nc -l -p 30001 < mensaje.txt
 ### 🎉 ¡Felicidades hacker! 🧠💻
 
 Si llegaste hasta aquí, dominaste una tonelada de herramientas útiles de Linux y pentesting básico. Prepárate para retos aún más complejos (como Narnia, Leviathan o Krypton 🔐).
-
-¿Quieres que empaquemos esto como guía completa PDF o te armo una mini web con navegación por niveles? 👨‍💻💡
